@@ -10,7 +10,10 @@ The purpose of this project is to collect, work with, and clean a given data set
 3. Averaged data (cleaned_and_averaged_data.txt)
 4. CodeBook (code_book.md)
 
+## Original Data
+The original data used can be found in the 'train' and 'test' folders, along with the 'features.txt' and 'activity_labels.txt' files
 
+## More Information
 See the CodeBook for more information
 
 
