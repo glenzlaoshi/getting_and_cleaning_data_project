@@ -4,7 +4,7 @@
 ## Variables
 The categories and variables present in the dataset used are as follows:
 
-Activities
+### Activities
 ---
 1. Walking
 2. Walking upstairs
