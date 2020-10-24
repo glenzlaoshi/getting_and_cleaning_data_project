@@ -5,7 +5,6 @@
 The categories and variables present in the dataset used are as follows:
 
 ### Activities
----
 1. Walking
 2. Walking upstairs
 3. Walking downstairs
@@ -14,7 +13,6 @@ The categories and variables present in the dataset used are as follows:
 6. Laying
 
 ### Sensor Signals
----
 - Time domain body accelerometer (x,y,z)
 - Time domain gravity accelerometer (x,y,z)
 - Time domain body accelerometer jerk (x,y,z)
@@ -34,7 +32,6 @@ The categories and variables present in the dataset used are as follows:
 - Frequency domain body gyroscope jerk magnitude
 
 ### Estimated Variables (based upon sensor signals)
----
 - mean(): Mean value
 - std(): Standard deviation
 - mad(): Median absolute deviation 
