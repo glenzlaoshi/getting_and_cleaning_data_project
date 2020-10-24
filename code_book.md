@@ -1,6 +1,6 @@
 
 # Code Book
-
+The 'run_analysis.R' script merges several datasets from the "Human Activity Recognition Using Smartphones Dataset" and then finds the average (mean) of the included variables for the included subjects. The resulting 'clean' dataset is stored as 'cleaned_and_averaged_data.txt'.
 ## Variables
 The categories and variables present in the dataset used are as follows:
 
