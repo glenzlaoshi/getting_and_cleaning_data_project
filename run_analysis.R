@@ -27,7 +27,7 @@ features <- read.table("features.txt")
 # Search for 'mean' and 'std' and save these features as the ones to use
 selected_features <- grep("-(mean|std)\\(\\)", features[, 2])
 
-# 
+# use only selected features based upon mean or standar deviation
 xData <- xData[,selected_features]
 
 names(xData) <- features[selected_features,2]
@@ -37,12 +37,13 @@ names(xData) <- features[selected_features,2]
 # Step 3: Use descriptive activity names to name the activities in the data set
 # take activity names from the 'activity_labels.txt' file
 activities <- read.table("activity_labels.txt")
-# 
+
 yData[,1]<-activities[yData[,1],2]
 names(yData)<- c("activity")
 
 names(subjectData)<-c("subject")
 
+# Combine data sets
 cleanData <- cbind(xData,yData,subjectData)
 
 # Step 4: Appropriately labels the data set with descriptive variable names.
@@ -64,4 +65,4 @@ averageData<-cleanData %>%
 	group_by(subject,activity) %>%
 	summarize(across(.cols=everything(),.fns=list(mean=mean)))
 # Write the dataset to file
-write.table(averageData, "cleaned_and_averaged_data.txt")
+write.table(averageData, "cleaned_and_averaged_data.txt",row.name=FALSE)
