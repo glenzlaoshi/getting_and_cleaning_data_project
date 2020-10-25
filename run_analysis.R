@@ -2,8 +2,8 @@
 # The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 # The goal is to prepare tidy data that can be used for later analysis. 
 
-# add library import
-
+# import 'dyplr' package
+library(dplyr)
 # Step 1: Merge the training and the test sets to create one data set.
 
 # Load the x, y, and subject data from the test and training datasets
