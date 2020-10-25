@@ -51,7 +51,7 @@ The categories and variables present in the dataset used are as follows:
 - angle(): Angle between to vectors.
 
 ## Summary Choices
-No variables were excluded; after merging the "test" and "train" datasets for 'x' and 'y' dimensions, averages (mean) of each variable was calculated for each subject
+Measurements based upon mean and standard deviation are selected after merging the "test" and "train" datasets for 'x' and 'y' dimensions. Finally, averages (mean) of each variable are calculated for each subject
 ## Study Design
 Data was obtained from the "Human Activity Recognition Using Smartphones Dataset". As per the README:
 > The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
